@@ -4,3 +4,4 @@ Anggota:
 Andrew Kurniawan Gianto - 2210101008
 Eka Rifail Saipuddin Rachman - 2210101029
 Ryo Ferdinand - 2210101039
+Verrel Novendra Sulu - 2210101035
