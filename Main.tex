@@ -67,6 +67,7 @@
 	\end{IEEEkeywords}
 	
 	\section{Pendahuluan}
+	\textbf{\textcolor{red}{Latar belakang kurang panjang, lebih baik jika bisa dipanjangkan}}
 	Perangkat lunak telah menjadi dasar bagi banyak aplikasi dan sistem yang digunakan dalam berbagai hal dalam era teknologi informasi yang terus berkembang. Karena itu, perangkat lunak dibangun agar tidak hanya beroperasi dengan efisien, tetapi juga dapat berkembang dan berubah. Pengembang harus mengatur kode mereka sehingga mudah dipahami dan diselesaikan karena sistem yang kompleks dan masalah berulang. Pola desain antarmuka pengguna dapat membantu mengurangi kekacauan sistem yang kompleks. Penggunaan pola ini akan membuat aplikasi lebih terorganisir dan dapat diskalakan, sehingga tidak terelakkan untuk mempelajari pola antarmuka pengguna dan membuat keputusan yang tepat tentang pola mana yang paling cocok\cite{Perbandingan4}. \textit{Model-View-Controller} (MVC) dan \textit{Model-View-ViewModel} (MVVM) adalah dua arsitektur yang akan dibahas dalam artikel ini.
 	
 	Tujuan dari penelitian ini adalah untuk membandingkan kinerja arsitektur MVC dengan MVVM, khususnya dalam hal kecepatan dan penggunaan memori. MVC telah menjadi arsitektur yang paling umum digunakan dalam pengembangan perangkat lunak dengan metode prototype, sedangkan MVVM adalah arsitektur yang paling umum digunakan dalam pengembangan aplikasi mobile \cite{Perbandingan4}. Penelitian akan menentukan arsitektur mana yang paling efisien dan paling sesuai dengan berbagai kebutuhan pengembangan perangkat lunak melalui eksperimen untuk masing-masing \textit{Model-View} (MV). 
@@ -79,7 +80,7 @@
 	\subsection{Model-View-Controller (MVC)}
 	\textit{Model-View-Controller} atau MVC adalah arsitektur perangkat lunak untuk membuat sebuah aplikasi dengan memisahkan data (\textit{Model}) dari tampilan (\textit{View}) dan cara bagaimana memprosesnya (\textit{Controller})\cite{Perbandingan4} \cite{MVC} . MVC menekankan tiga elemen penting: perhatian, tanggung jawab, dan logika. Ini mempercepat kinerjanya.
 	
-	Berikut adalah penjelasan dari masing-masing komponen (Diilustrasikan pada figure 1):
+	\textbf{\textcolor{red}{Penjelasan dari masing masing komponen dapat dilihat pada gambar \ref{Aristektur MV}, dan mempunyai penjelasan sebagai berikut: }}
 	\begin{enumerate}[label=\alph*]
 		\item Bagian \textit{model} biasanya digunakan untuk mengambil data dari database atau menyimpan data ke dalam database. 
 		\item Bagian \textit{view} adalah komponen yang menampilkan antarmuka pengguna aplikasi, yang dibangun berdasarkan data model. 
@@ -92,6 +93,7 @@
 		\centering
 		\includegraphics[width=0.5\textwidth]{images/MVC3}
 		\caption{Arsitektur MVC}
+		\label{Aristektur MV}
 	\end{figure}
 	
 	Berikut dijelaskan mengenai keuntungan dan kerugian dari arsitektur MVC:
@@ -106,6 +108,7 @@
 		\item Adanya kompleksitas dalam pengelolaan koneksi antara 3 komponen tersebut.
 		\item Adanya kesulitan dalam pengujian unit pada \textit{View} dan \textit{Controller}.
 	\end{itemize}
+	
 	
 	\subsection{Model-View-View-Model (MVVM)}
 	\textit{Model View ViewModel} (MVVM) adalah sebuah arsitektur perangkat lunak yang memisahkan antara kode untuk logika bisnis dan tampilan aplikasi\cite{MVVM}. Dalam kata lain, MVVM adalah sebuah pattern desain yang terdiri dari tiga komponen: \textit{Model, View, dan ViewModel} \cite{MVVM2}.  
@@ -142,7 +145,7 @@
 	
 	Dalam penelitian "Performance Comparison of Native Android Application on MVP and MVVM"\cite{[Perbandingan3]}, dibahas analisis komparatif terhadap arsitektur MVP (\textit{Model-View-Presente}r) dan MVVM (\textit{Model-View-ViewModel}) dalam konteks pengembangan aplikasi Android asli dilakukan dalam makalah yang ditulis oleh Wisnuadhi, Munawar, dan Wahyu. Tujuan dari penelitian ini adalah untuk mengevaluasi kinerja kedua arsitektur tersebut dengan mempertimbangkan tiga faktor: penggunaan CPU, penggunaan memori, dan waktu eksekusi. Hasil eksperimen menunjukkan bahwa arsitektur MVVM lebih baik dalam penggunaan CPU dan waktu eksekusi, sedangkan MVP unggul dalam penggunaan memori. Aplikasi MVVM memiliki penggunaan CPU yang lebih rendah dengan perbedaan rata-rata 0,55\% dan waktu eksekusi yang lebih cepat dengan perbedaan rata-rata 126.21 ms. Aplikasi MVP juga memiliki penggunaan memori yang lebih rendah dengan perbedaan rata-rata 0.92 Mb1.
 	
-	
+	\textbf{\textcolor{red}{Kalau bisa dibuat table penelitian A, Penelitian B kelebihan dari masing masing model}}
 	\section{Metodologi}
 	
 	
