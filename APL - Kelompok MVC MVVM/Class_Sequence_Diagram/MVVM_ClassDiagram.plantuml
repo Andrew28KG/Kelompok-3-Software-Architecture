@@ -1,0 +1,82 @@
+@startuml MVVM_ClassDiagram
+
+skinparam class {
+    BackgroundColor PaleGreen
+    BorderColor DarkGreen
+    FontColor DarkGreen
+    ArrowColor DarkGreen
+}
+
+class Binder <<binder>> {
+    - source: Object
+    + Binder(spinner: JSpinner, property: ViewModelProperty)
+}
+
+class Model <<entity>> {
+    - name: String
+    - values: Map<String, Integer>
+    + Model(name: String)
+    + getName(): String
+    + setName(name: String): void
+    + getValues(): Map<String, Integer>
+    + setValues(values: Map<String, Integer>): void
+    + setValue(key: String, value: int): Integer
+    + getValue(key: String): Integer
+}
+
+class View <<view>> {
+    - contentPane: JPanel
+    - bindList: List<Binder>
+    - spinner001: JSpinner
+    - spinner002: JSpinner
+    - spinner003: JSpinner
+    - spinner001b: JSpinner
+    - spinner002b: JSpinner
+    - spinner003b: JSpinner
+    + View()
+    + bind(viewModel: ViewModel): void
+}
+
+class MVVMApp {
+    + main(args: String[]): void
+}
+
+class ViewModel <<viewmodel>> {
+    - model: Model
+    - viewModelProperties: Map<String, ViewModelProperty>
+    + getModel(): Model
+    + setModel(model: Model): void
+    + getViewModelProperties(): Map<String, ViewModelProperty>
+    + setViewModelProperties(viewModelProperties: Map<String, ViewModelProperty>): void
+    + onPropertyChanged(viewModelProperty: ViewModelProperty): void
+}
+
+class ViewModelProperty <<property>> {
+    - name: String
+    - viewModelPropertyChangeEvent: ViewModelPropertyChangeEvent
+    - value: Object
+    - viewModel: ViewModel
+    + ViewModelProperty(name: String, viewModel: ViewModel)
+    + setValue(value: Object): void
+    + setValue(value: Object, preventEventPropagation: boolean): void
+    + getValue(): Object
+    + getName(): String
+    + setName(name: String): void
+    + getViewModel(): ViewModel
+    + setModelViewPropertyChangeEvent(modelViewPropertyChangeEvent: ViewModelPropertyChangeEvent): void
+}
+
+interface ViewModelPropertyChangeEvent {
+    + onPropertyChanged(modelViewProperty: ViewModelProperty): void
+}
+
+MVVMApp --> Model : creates >
+MVVMApp --> ViewModel : initializes >
+MVVMApp --> View : creates >
+ViewModel --> Model : manages >
+ViewModelProperty --> ViewModel : belongs to >
+Binder --> ViewModelProperty : binds >
+View --> Binder : contains >
+ViewModelPropertyChangeEvent <|.. ViewModelProperty
+
+@enduml

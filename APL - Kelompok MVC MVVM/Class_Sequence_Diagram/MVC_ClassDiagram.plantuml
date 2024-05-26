@@ -1,0 +1,57 @@
+@startuml MVC_ClassDiagram
+
+skinparam class {
+    BackgroundColor PaleGreen
+    BorderColor DarkGreen
+    FontColor DarkGreen
+    ArrowColor DarkGreen
+}
+
+class Controller <<controller>> {
+    - models: Map<String, Model>
+    + handleChange(modelName: String, spinnerName: String, value: int): void
+    + getModels(): Map<String, Model>
+    + setModels(models: Map<String, Model>): void
+}
+
+class Model <<entity>> {
+    - name: String
+    - values: Map<String, Integer>
+    - view: View
+    + Model(name: String)
+    + getName(): String
+    + setName(name: String): void
+    + getValues(): Map<String, Integer>
+    + setValues(values: Map<String, Integer>): void
+    + setValue(key: String, value: int): Integer
+    + getValue(key: String): int
+    + getView(): View
+    + setView(view: View): void
+}
+
+class MVCApp {
+    + main(args: String[]): void
+}
+
+class View <<view>> {
+    - contentPane: JPanel
+    - spinner001: JSpinner
+    - spinner003: JSpinner
+    - spinner002: JSpinner
+    - spinner001b: JSpinner
+    - spinner002b: JSpinner
+    - spinner003b: JSpinner
+    - modelName: String
+    + View()
+    + getContentPane(): JPanel
+    + getModelName(): String
+    + setModelName(modelName: String): void
+}
+
+MVCApp --> Model : creates >
+MVCApp --> View : creates >
+MVCApp --> Controller : initializes >
+Controller -- Model : manages >
+Model -- View : updates >
+
+@enduml

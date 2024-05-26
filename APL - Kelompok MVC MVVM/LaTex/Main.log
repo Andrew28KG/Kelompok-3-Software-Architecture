@@ -1,0 +1,768 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.8)  27 MAY 2024 06:50
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./Main.tex
+(Main.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+
+(C:\Users\Andrew K Gianto\AppData\Local\Programs\MiKTeX\tex/latex/ieeetran\IEEE
+tran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen140
+\@IEEEtrantmpdimenB=\dimen141
+\@IEEEtrantmpdimenC=\dimen142
+\@IEEEtrantmpcountA=\count187
+\@IEEEtrantmpcountB=\count188
+\@IEEEtrantmpcountC=\count189
+\@IEEEtrantmptoksA=\toks17
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
+03.
+
+(C:\Users\Andrew K Gianto\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm
+.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen143
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen144
+\CLASSINFOnormalsizeunitybaselineskip=\dimen145
+\IEEEnormaljot=\dimen146
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+\IEEEquantizedlength=\dimen147
+\IEEEquantizedlengthdiff=\dimen148
+\IEEEquantizedtextheightdiff=\dimen149
+\IEEEilabelindentA=\dimen150
+\IEEEilabelindentB=\dimen151
+\IEEEilabelindent=\dimen152
+\IEEEelabelindent=\dimen153
+\IEEEdlabelindent=\dimen154
+\IEEElabelindent=\dimen155
+\IEEEiednormlabelsep=\dimen156
+\IEEEiedmathlabelsep=\dimen157
+\IEEEiedtopsep=\skip48
+\c@section=\count190
+\c@subsection=\count191
+\c@subsubsection=\count192
+\c@paragraph=\count193
+\c@IEEEsubequation=\count194
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\c@figure=\count195
+\c@table=\count196
+\@IEEEeqnnumcols=\count197
+\@IEEEeqncolcnt=\count198
+\@IEEEsubeqnnumrollback=\count199
+\@IEEEquantizeheightA=\dimen158
+\@IEEEquantizeheightB=\dimen159
+\@IEEEquantizeheightC=\dimen160
+\@IEEEquantizeprevdepth=\dimen161
+\@IEEEquantizemultiple=\count266
+\@IEEEquantizeboxA=\box51
+\@IEEEtmpitemindent=\dimen162
+\IEEEPARstartletwidth=\dimen163
+\c@IEEEbiography=\count267
+\@IEEEtranrubishbin=\box52
+)
+** ATTENTION: Overriding command lockouts (line 2).
+
+(C:\Users\Andrew K Gianto\AppData\Local\Programs\MiKTeX\tex/latex/cite\cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(C:\Users\Andrew K Gianto\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsma
+th.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+
+(C:\Users\Andrew K Gianto\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amste
+xt.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Users\Andrew K Gianto\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsge
+n.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen164
+))
+(C:\Users\Andrew K Gianto\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbs
+y.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen165
+)
+(C:\Users\Andrew K Gianto\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsop
+n.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count268
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count269
+\leftroot@=\count270
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count271
+\DOTSCASE@=\count272
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen166
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count273
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count274
+\dotsspace@=\muskip16
+\c@parentequation=\count275
+\dspbrk@lvl=\count276
+\tag@help=\toks19
+\row@=\count277
+\column@=\count278
+\maxfields@=\count279
+\andhelp@=\toks20
+\eqnshift@=\dimen167
+\alignsep@=\dimen168
+\tagshift@=\dimen169
+\tagwidth@=\dimen170
+\totwidth@=\dimen171
+\lineht@=\dimen172
+\@envbody=\toks21
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(C:\Users\Andrew K Gianto\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amss
+ymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\Andrew K Gianto\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsf
+onts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\Users\Andrew K Gianto\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\al
+gorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+
+(C:\Users\Andrew K Gianto\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.s
+ty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\Andrew K Gianto\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyv
+al.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks23
+)
+\c@ALC@unique=\count280
+\c@ALC@line=\count281
+\c@ALC@rem=\count282
+\c@ALC@depth=\count283
+\ALC@tlm=\skip54
+\algorithmicindent=\skip55
+)
+(C:\Users\Andrew K Gianto\AppData\Local\Programs\MiKTeX\tex/latex/graphics\grap
+hicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Andrew K Gianto\AppData\Local\Programs\MiKTeX\tex/latex/graphics\grap
+hics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Andrew K Gianto\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig
+.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\Andrew K Gianto\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\
+graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\Andrew K Gianto\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\
+pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen173
+\Gin@req@width=\dimen174
+)
+(C:\Users\Andrew K Gianto\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp
+.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(C:\Users\Andrew K Gianto\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor
+.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(C:\Users\Andrew K Gianto\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\
+color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(C:\Users\Andrew K Gianto\AppData\Local\Programs\MiKTeX\tex/latex/graphics\math
+color.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+)
+(C:\Users\Andrew K Gianto\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enum
+item.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip56
+\enit@outerparindent=\dimen175
+\enit@toks=\toks24
+\enit@inbox=\box55
+\enit@count@id=\count284
+\enitdp@description=\count285
+)
+(C:\Users\Andrew K Gianto\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.s
+ty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen176
+\ar@mcellbox=\box56
+\extrarowheight=\dimen177
+\NC@list=\toks25
+\extratabsurround=\skip57
+\backup@length=\skip58
+\ar@cellbox=\box57
+)
+(C:\Users\Andrew K Gianto\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3b
+ackend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count286
+\l__pdf_internal_box=\box58
+) (Main.aux
+
+LaTeX Warning: Label `fig:class_mvvm' multiply defined.
+
+)
+\openout1 = `Main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+
+-- Lines per column: 56 (exact).
+
+(C:\Users\Andrew K Gianto\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\s
+upp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count287
+\scratchdimen=\dimen178
+\scratchbox=\box59
+\nofMPsegments=\count288
+\nofMParguments=\count289
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count290
+\MPscratchDim=\dimen179
+\MPnumerator=\count291
+\makeMPintoPDFobject=\count292
+\everyMPtoPDFconversion=\toks27
+)
+(C:\Users\Andrew K Gianto\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\
+epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\Andrew K Gianto\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epst
+opdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Font Info:    Trying to load font information for U+msa on input line 60.
+
+
+(C:\Users\Andrew K Gianto\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa
+.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 60.
+
+
+(C:\Users\Andrew K Gianto\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb
+.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 2418) in paragraph at lines 84--85
+[]\OT1/ptm/m/n/10 Hasil dari peneli-tian ini di-hara-p-kan da-pat mem-bantu
+ []
+
+
+Underfull \hbox (badness 3312) in paragraph at lines 84--85
+\OT1/ptm/m/n/10 pengem-bang perangkat lu-nak mema-hami kelebi-han dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+\OT1/ptm/m/n/10 kelema-han masing-masing ar-sitek-tur, serta menam-bah
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+\OT1/ptm/m/n/10 wawasan ten-tang per-forma masing-masing ar-sitek-tur.
+ []
+
+
+Underfull \hbox (badness 8094) in paragraph at lines 84--85
+\OT1/ptm/m/n/10 Meskipun ke-dua ar-sitek-tur ini telah pop-uler se-ba-gai
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+\OT1/ptm/m/n/10 pengem-ban-gan perangkat lu-nak, pengem-bang perlu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+\OT1/ptm/m/n/10 mema-hami den-gan lebih baik men-ge-nai kin-erja dan
+ []
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 84--85
+\OT1/ptm/m/n/10 karak-ter-is-tik masing-masing ar-sitek-tur. Den-gan demikian,
+ []
+
+[1{C:/Users/Andrew K Gianto/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C
+:/Users/Andrew K Gianto/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.e
+nc}
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+[]\OT1/ptm/m/it/10 Model-View-Controller \OT1/ptm/m/n/10 atau MVC adalah ar-sit
+ek-tur
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 90--91
+\OT1/ptm/m/n/10 perangkat lu-nak un-tuk mem-buat se-buah ap-likasi den-gan
+ []
+
+
+Underfull \hbox (badness 3930) in paragraph at lines 90--91
+\OT1/ptm/m/n/10 bagaimana mem-pros-es-nya (\OT1/ptm/m/it/10 Con-troller\OT1/ptm
+/m/n/10 ) [1] [3] . MVC
+ []
+
+<images/MVC3.png, id=9, 2285.53876pt x 1808.7575pt>
+File: images/MVC3.png Graphic file (type png)
+<use images/MVC3.png>
+Package pdftex.def Info: images/MVC3.png  used on input line 101.
+(pdftex.def)             Requested size: 258.0pt x 204.15262pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 101--102
+ [][] 
+ []
+
+
+Underfull \hbox (badness 2173) in paragraph at lines 125--126
+\OT1/ptm/m/n/10 out sum-ber daya file dan ak-tiv-i-tas/fragmen. Ac-tiv-
+ []
+
+<images/MVVM.png, id=10, 610.28pt x 250.9375pt>
+File: images/MVVM.png Graphic file (type png)
+<use images/MVVM.png>
+Package pdftex.def Info: images/MVVM.png  used on input line 131.
+(pdftex.def)             Requested size: 258.0pt x 106.08989pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 131--132
+ [][] 
+ []
+
+[2 <./images/MVC3.png> <./images/MVVM.png (PNG copy)>]
+Underfull \hbox (badness 2547) in paragraph at lines 149--150
+\OT1/ptm/m/n/10 View-Controller, Model-View-Presenter, dan Model-View-
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 166--167
+\OT1/ptm/m/n/10 View-Controller). Den-gan meng-gu-nakan Metode Anal-i-sis
+ []
+
+
+Underfull \hbox (badness 1824) in paragraph at lines 166--167
+\OT1/ptm/m/n/10 Trade-off Ar-sitek-tur un-tuk men-jawab per-tanyaan ini dan
+ []
+
+
+LaTeX Warning: Citation `Perbandingan3' on page 3 undefined on input line 168.
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 188--189
+[]\OT1/ptm/m/n/10 Mengumpulkan data-data ten-tang ar-sitek-tur MVC dan
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+ \OT1/ptm/m/it/10 a) Class Di-a-gram: [][] \OT1/ptm/m/n/10 Class di-a-gram \OT1
+/ptm/m/it/10 Model-View-
+ []
+
+
+Underfull \hbox (badness 2351) in paragraph at lines 195--196
+\OT1/ptm/m/it/10 Controller \OT1/ptm/m/n/10 (MVC), pada fig-ure 3, menggam-bark
+an tiga
+ []
+
+
+Underfull \hbox (badness 2142) in paragraph at lines 195--196
+\OT1/ptm/m/n/10 kom-po-nen utama yang berko-lab-o-rasi un-tuk memisahkan
+ []
+
+
+Underfull \hbox (badness 3271) in paragraph at lines 195--196
+\OT1/ptm/m/n/10 per-tama adalah \OT1/ptm/m/it/10 Model\OT1/ptm/m/n/10 , yang be
+rtang-gung jawab un-tuk
+ []
+
+
+Underfull \hbox (badness 3657) in paragraph at lines 195--196
+\OT1/ptm/m/n/10 per-hi-tun-gan, dan men-gir-imkan data ke kom-po-nen lain
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 195--196
+\OT1/ptm/m/n/10 mengam-bil data dari \OT1/ptm/m/it/10 model \OT1/ptm/m/n/10 dan
+ menampilkan-nya dalam
+ []
+
+
+Underfull \hbox (badness 3000) in paragraph at lines 195--196
+\OT1/ptm/m/n/10 for-mat yang sesuai, seperti an-tar-muka peng-guna grafis
+ []
+
+
+Underfull \hbox (badness 2689) in paragraph at lines 195--196
+\OT1/ptm/m/n/10 atau la-po-ran teks. Kom-po-nen ketiga adalah \OT1/ptm/m/it/10 
+Con-troller\OT1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 195--196
+\OT1/ptm/m/it/10 Con-troller \OT1/ptm/m/n/10 mener-ima in-put dari peng-guna me
+lalui view,
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 195--196
+\OT1/ptm/m/n/10 den-gan \OT1/ptm/m/it/10 con-troller\OT1/ptm/m/n/10 , yang men-
+gatur ali-ran data di an-tara
+ []
+
+<../Class_Sequence_Diagram/out/MVC_ClassDiagram/MVC_ClassDiagram.png, id=18, 71
+5.67375pt x 985.6825pt>
+File: ../Class_Sequence_Diagram/out/MVC_ClassDiagram/MVC_ClassDiagram.png Graph
+ic file (type png)
+<use ../Class_Sequence_Diagram/out/MVC_ClassDiagram/MVC_ClassDiagram.png>
+Package pdftex.def Info: ../Class_Sequence_Diagram/out/MVC_ClassDiagram/MVC_Cla
+ssDiagram.png  used on input line 199.
+(pdftex.def)             Requested size: 154.80157pt x 213.19603pt.
+<../Class_Sequence_Diagram/out/MVC_SequenceDiagram/MVC_SequenceDiagram.png, id=
+19, 685.56125pt x 504.88625pt>
+File: ../Class_Sequence_Diagram/out/MVC_SequenceDiagram/MVC_SequenceDiagram.png
+ Graphic file (type png)
+<use ../Class_Sequence_Diagram/out/MVC_SequenceDiagram/MVC_SequenceDiagram.png>
+
+Package pdftex.def Info: ../Class_Sequence_Diagram/out/MVC_SequenceDiagram/MVC_
+SequenceDiagram.png  used on input line 212.
+(pdftex.def)             Requested size: 206.39685pt x 151.9986pt.
+<../Class_Sequence_Diagram/out/MVVM_ClassDiagram/MVVM_ClassDiagram.png, id=20, 
+1197.47375pt x 1472.50125pt>
+File: ../Class_Sequence_Diagram/out/MVVM_ClassDiagram/MVVM_ClassDiagram.png Gra
+phic file (type png)
+<use ../Class_Sequence_Diagram/out/MVVM_ClassDiagram/MVVM_ClassDiagram.png>
+Package pdftex.def Info: ../Class_Sequence_Diagram/out/MVVM_ClassDiagram/MVVM_C
+lassDiagram.png  used on input line 224.
+(pdftex.def)             Requested size: 154.80157pt x 190.3534pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <../Class_Sequence_Diagram/out/MVC_ClassDiagram/MVC_ClassDiagram.png (PNG c
+opy)> <../Class_Sequence_Diagram/out/MVC_SequenceDiagram/MVC_SequenceDiagram.pn
+g (PNG copy)>]
+Underfull \hbox (badness 3838) in paragraph at lines 232--233
+ \OT1/ptm/m/it/10 b) Se-quence Di-a-gram: [][] \OT1/ptm/m/n/10 Se-quence di-a-g
+ram MVVM,
+ []
+
+<../Class_Sequence_Diagram/out/MVVM_SequenceDiagram/MVVM_SequenceDiagram.png, i
+d=24, 673.51625pt x 563.10374pt>
+File: ../Class_Sequence_Diagram/out/MVVM_SequenceDiagram/MVVM_SequenceDiagram.p
+ng Graphic file (type png)
+<use ../Class_Sequence_Diagram/out/MVVM_SequenceDiagram/MVVM_SequenceDiagram.pn
+g>
+Package pdftex.def Info: ../Class_Sequence_Diagram/out/MVVM_SequenceDiagram/MVV
+M_SequenceDiagram.png  used on input line 236.
+(pdftex.def)             Requested size: 206.39685pt x 172.55835pt.
+<images/ImplementasiKode.png, id=25, 344.78813pt x 450.18187pt>
+File: images/ImplementasiKode.png Graphic file (type png)
+<use images/ImplementasiKode.png>
+Package pdftex.def Info: images/ImplementasiKode.png  used on input line 246.
+(pdftex.def)             Requested size: 154.80157pt x 202.11974pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
+ \OT1/ptm/m/it/10 2) Pola Ar-sitek-tur MVVM: [][] \OT1/ptm/m/n/10 Model-View-Vi
+ewModel
+ []
+
+
+Underfull \hbox (badness 7777) in paragraph at lines 263--264
+\OT1/ptm/m/it/10 View-Mod-el-Prop-erty, View-Mod-el-Prop-er-ty-ChangeEvent, \OT
+1/ptm/m/n/10 dan
+ []
+
+[5 <../Class_Sequence_Diagram/out/MVVM_ClassDiagram/MVVM_ClassDiagram.png (PNG 
+copy)> <../Class_Sequence_Diagram/out/MVVM_SequenceDiagram/MVVM_SequenceDiagram
+.png (PNG copy)> <./images/ImplementasiKode.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+[]\OT1/ptm/m/n/10 File \OT1/ptm/m/it/10 View-Mod-el-Prop-er-ty-ChangeEvent \OT1
+/ptm/m/n/10 berfungsi un-tuk
+ []
+
+
+Underfull \hbox (badness 2478) in paragraph at lines 275--276
+\OT1/ptm/m/n/10 menan-gani apa-bila ter-jadi adanya pe-ruba-han pada ni-lai
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 275--276
+\OT1/ptm/m/n/10 den-gan cara mem-per-barui tampi-lan yang terkait den-gan
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 285--286
+ \OT1/ptm/m/it/10 2) Test-ing Pola Ar-sitek-tur MVVM: [][] \OT1/ptm/m/n/10 Cara
+ kerja TEST-
+ []
+
+<images/MVC_Start.png, id=31, 342.5297pt x 127.97812pt>
+File: images/MVC_Start.png Graphic file (type png)
+<use images/MVC_Start.png>
+Package pdftex.def Info: images/MVC_Start.png  used on input line 294.
+(pdftex.def)             Requested size: 206.39685pt x 77.11748pt.
+<images/MVC_END.png, id=32, 344.03531pt x 176.15813pt>
+File: images/MVC_END.png Graphic file (type png)
+<use images/MVC_END.png>
+Package pdftex.def Info: images/MVC_END.png  used on input line 303.
+(pdftex.def)             Requested size: 258.0pt x 132.10481pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 303--304
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6 <./images/MVC_Start.png>]
+<images/StartMVVM.png, id=37, 326.72063pt x 127.22531pt>
+File: images/StartMVVM.png Graphic file (type png)
+<use images/StartMVVM.png>
+Package pdftex.def Info: images/StartMVVM.png  used on input line 315.
+(pdftex.def)             Requested size: 206.39685pt x 80.36978pt.
+<images/ENDMVVM.png, id=38, 816.04875pt x 170.13562pt>
+File: images/ENDMVVM.png Graphic file (type png)
+<use images/ENDMVVM.png>
+Package pdftex.def Info: images/ENDMVVM.png  used on input line 324.
+(pdftex.def)             Requested size: 258.0pt x 53.7903pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 324--325
+ [][] 
+ []
+
+<../mvc-mvvm/plot_view_total_time.pdf, id=39, 1018.98502pt x 585.05226pt>
+File: ../mvc-mvvm/plot_view_total_time.pdf Graphic file (type pdf)
+<use ../mvc-mvvm/plot_view_total_time.pdf>
+Package pdftex.def Info: ../mvc-mvvm/plot_view_total_time.pdf  used on input li
+ne 336.
+(pdftex.def)             Requested size: 206.39685pt x 118.4992pt.
+<../mvc-mvvm/plot_view_total_memory.pdf, id=40, 1018.98502pt x 585.05226pt>
+File: ../mvc-mvvm/plot_view_total_memory.pdf Graphic file (type pdf)
+<use ../mvc-mvvm/plot_view_total_memory.pdf>
+Package pdftex.def Info: ../mvc-mvvm/plot_view_total_memory.pdf  used on input 
+line 345.
+(pdftex.def)             Requested size: 206.39685pt x 118.4992pt.
+<../mvc-mvvm/plot_spin_total_time.pdf, id=41, 1018.98502pt x 585.05226pt>
+File: ../mvc-mvvm/plot_spin_total_time.pdf Graphic file (type pdf)
+<use ../mvc-mvvm/plot_spin_total_time.pdf>
+Package pdftex.def Info: ../mvc-mvvm/plot_spin_total_time.pdf  used on input li
+ne 355.
+(pdftex.def)             Requested size: 258.0pt x 148.12848pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 355--356
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7 <./images/MVC_END.png> <./images/StartMVVM.png> <./images/ENDMVVM.png> <../m
+vc-mvvm/plot_view_total_time.pdf> <../mvc-mvvm/plot_view_total_memory.pdf>]
+<../mvc-mvvm/plot_spin_total_memory.pdf, id=175, 1018.98502pt x 585.05226pt>
+File: ../mvc-mvvm/plot_spin_total_memory.pdf Graphic file (type pdf)
+<use ../mvc-mvvm/plot_spin_total_memory.pdf>
+Package pdftex.def Info: ../mvc-mvvm/plot_spin_total_memory.pdf  used on input 
+line 367.
+(pdftex.def)             Requested size: 258.0pt x 148.12848pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 367--368
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--377
+\OT1/ptm/m/n/10 ke-cepatan ek-sekusi, ar-sitek-tur Model-View-ViewModel
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 376--377
+\OT1/ptm/m/n/10 yang meli-batkan pe-ruba-han data pada banyak tampi-lan
+ []
+
+
+Underfull \hbox (badness 1424) in paragraph at lines 376--377
+\OT1/ptm/m/n/10 (view). Na-mun, peng-gu-naan mem-ori oleh MVVM lebih
+ []
+
+
+Underfull \hbox (badness 3058) in paragraph at lines 378--379
+[]\OT1/ptm/m/n/10 Penelitian ini mem-berikan wawasan berharga ten-tang
+ []
+
+(Main.bbl)
+
+** Conference Paper **
+Before submitting the final camera ready copy, remember to:
+
+ 1. Manually equalize the lengths of two columns on the last page
+ of your paper;
+
+ 2. Ensure that any PostScript and/or PDF output post-processing
+ uses only Type 1 fonts and that every step in the generation
+ process uses the appropriate paper size.
+
+[8 <../mvc-mvvm/plot_spin_total_time.pdf> <../mvc-mvvm/plot_spin_total_memory.p
+df>] (Main.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4759 strings out of 474486
+ 81138 string characters out of 5739000
+ 1942542 words of memory out of 5000000
+ 26999 multiletter control sequences out of 15000+600000
+ 597816 words of font info for 110 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,8n,65p,1377b,292s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Andrew K Gianto/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmsy7.pfb><C:/Users/Andrew K Gianto/AppData/Local/Programs/MiKTeX/fon
+ts/type1/urw/times/utmb8a.pfb><C:/Users/Andrew K Gianto/AppData/Local/Programs/
+MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Andrew K Gianto/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Andrew K Gianto/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Main.pdf (8 pages, 664440 bytes).
+PDF statistics:
+ 330 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+

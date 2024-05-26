@@ -1,0 +1,49 @@
+@startuml MVC_SequenceDiagram
+
+skinparam sequence {
+    ArrowColor DarkGreen
+    LifeLineBorderColor DarkGreen
+    LifeLineBackgroundColor LightGreen
+    ParticipantBorderColor DarkGreen
+    ParticipantBackgroundColor PaleGreen
+    ActorBorderColor DarkGreen
+    ActorBackgroundColor PaleGreen
+    ArrowFontSize 12
+    SequenceBoxBorderColor DarkGreen
+    SequenceBoxBackgroundColor LightYellow
+    SequenceBoxFontSize 14
+}
+
+actor User
+
+participant MVCApp
+participant Controller <<controller>>
+participant Model <<entity>>
+participant View <<view>>
+
+User -> MVCApp : starts
+activate MVCApp
+MVCApp -> Model : creates model "001"
+activate Model
+MVCApp -> View : creates view
+activate View
+View -> Model : setView(view)
+Model -> View : sets modelName
+MVCApp -> Controller : Controller.getModels().put(model)
+Controller -> Model : manages model
+deactivate View
+deactivate Model
+deactivate MVCApp
+
+User -> View : interacts with spinner
+activate View
+View -> Controller : handleChange(modelName, spinnerName, value)
+activate Controller
+Controller -> Model : setValue(spinnerName, value)
+activate Model
+Model -> View : updates spinner value
+deactivate Model
+deactivate Controller
+deactivate View
+
+@enduml

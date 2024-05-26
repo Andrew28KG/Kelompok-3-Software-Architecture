@@ -1,0 +1,57 @@
+@startuml MVVM_SequenceDiagram
+
+skinparam sequence {
+    ArrowColor DarkGreen
+    LifeLineBorderColor DarkGreen
+    LifeLineBackgroundColor LightGreen
+    ParticipantBorderColor DarkGreen
+    ParticipantBackgroundColor PaleGreen
+    ActorBorderColor DarkGreen
+    ActorBackgroundColor PaleGreen
+    ArrowFontSize 12
+    SequenceBoxBorderColor DarkGreen
+    SequenceBoxBackgroundColor LightYellow
+    SequenceBoxFontSize 14
+}
+
+actor User
+
+participant MVVMApp
+participant View <<view>>
+participant ViewModel <<viewmodel>>
+participant Model <<entity>>
+participant Binder <<binder>>
+
+User -> MVVMApp : starts
+activate MVVMApp
+MVVMApp -> Model : creates model
+activate Model
+MVVMApp -> ViewModel : creates viewmodel
+activate ViewModel
+ViewModel -> Model : sets model
+MVVMApp -> View : creates view
+activate View
+MVVMApp -> View : bind(viewModel)
+View -> Binder : creates binders for spinners
+deactivate View
+deactivate ViewModel
+deactivate Model
+deactivate MVVMApp
+
+User -> View : interacts with spinner
+activate View
+View -> Binder : stateChanged event
+activate Binder
+Binder -> ViewModelProperty : setValue
+activate ViewModelProperty
+ViewModelProperty -> ViewModel : notify onPropertyChanged
+activate ViewModel
+ViewModel -> Model : updates model
+deactivate Model
+ViewModel -> ViewModelProperty : updates related property
+deactivate ViewModelProperty
+deactivate ViewModel
+deactivate Binder
+deactivate View
+
+@enduml
