@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.8)  27 MAY 2024 06:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.8)  27 MAY 2024 10:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -666,13 +666,23 @@ File: ../mvc-mvvm/plot_view_total_time.pdf Graphic file (type pdf)
 <use ../mvc-mvvm/plot_view_total_time.pdf>
 Package pdftex.def Info: ../mvc-mvvm/plot_view_total_time.pdf  used on input li
 ne 336.
-(pdftex.def)             Requested size: 206.39685pt x 118.4992pt.
+(pdftex.def)             Requested size: 258.0pt x 148.12848pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 336--337
+ [][] 
+ []
+
 <../mvc-mvvm/plot_view_total_memory.pdf, id=40, 1018.98502pt x 585.05226pt>
 File: ../mvc-mvvm/plot_view_total_memory.pdf Graphic file (type pdf)
 <use ../mvc-mvvm/plot_view_total_memory.pdf>
 Package pdftex.def Info: ../mvc-mvvm/plot_view_total_memory.pdf  used on input 
 line 345.
-(pdftex.def)             Requested size: 206.39685pt x 118.4992pt.
+(pdftex.def)             Requested size: 258.0pt x 148.12848pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 345--346
+ [][] 
+ []
+
 <../mvc-mvvm/plot_spin_total_time.pdf, id=41, 1018.98502pt x 585.05226pt>
 File: ../mvc-mvvm/plot_spin_total_time.pdf Graphic file (type pdf)
 <use ../mvc-mvvm/plot_spin_total_time.pdf>
@@ -701,18 +711,18 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 367--368
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 376--377
-\OT1/ptm/m/n/10 ke-cepatan ek-sekusi, ar-sitek-tur Model-View-ViewModel
+Underfull \hbox (badness 5637) in paragraph at lines 376--377
+\OT1/ptm/m/n/10 derung lebih cepat diband-ingkan den-gan Model-View-
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 376--377
-\OT1/ptm/m/n/10 yang meli-batkan pe-ruba-han data pada banyak tampi-lan
+Underfull \hbox (badness 1655) in paragraph at lines 376--377
+\OT1/ptm/m/n/10 Controller (MVC). Hal ini ter-li-hat dari waktu ek-sekusi
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 376--377
-\OT1/ptm/m/n/10 (view). Na-mun, peng-gu-naan mem-ori oleh MVVM lebih
+Underfull \hbox (badness 1939) in paragraph at lines 376--377
+\OT1/ptm/m/n/10 yang lebih kon-sis-ten dan efisien dalam menan-gani op-
  []
 
 
@@ -748,7 +758,7 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  4759 strings out of 474486
- 81138 string characters out of 5739000
+ 81378 string characters out of 5739000
  1942542 words of memory out of 5000000
  26999 multiletter control sequences out of 15000+600000
  597816 words of font info for 110 fonts, out of 8000000 for 9000
@@ -760,7 +770,7 @@ ts/type1/urw/times/utmb8a.pfb><C:/Users/Andrew K Gianto/AppData/Local/Programs/
 MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Andrew K Gianto/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Andrew K Gianto/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Main.pdf (8 pages, 664440 bytes).
+Output written on Main.pdf (8 pages, 664475 bytes).
 PDF statistics:
  330 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

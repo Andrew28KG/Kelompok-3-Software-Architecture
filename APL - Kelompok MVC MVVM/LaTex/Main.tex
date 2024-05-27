@@ -70,7 +70,7 @@
 	\end{abstract}
 	
 	\begin{IEEEkeywords}
-		MVC, MVVM, kecepatan, memori
+		MVC, MVVM, kecepatan, \textit{memory}, \textit{Spin, View}
 	\end{IEEEkeywords}
 	
 	\section{Pendahuluan}
@@ -333,7 +333,7 @@
 	
 	\begin{figure}[h]
 		\centering
-		\includegraphics[width=0.4\textwidth]{../mvc-mvvm/plot_view_total_time.pdf}
+		\includegraphics[width=0.5\textwidth]{../mvc-mvvm/plot_view_total_time.pdf}
 		\caption{Perbandingan \textit{Total View to Total Time}}
 		\label{fig:total_view_to_total_time}
 	\end{figure}
@@ -342,7 +342,7 @@
 	Hasil perbandingan \textit{View to Total Memory} adalah MVVM lebih unggul dalam penggunaan memori berdasarkan jumlah \textit{view} dibandingkan dengan MVC. Hal ini terlihat pada average memori untuk setiap \textit{view} dalam MVVM (182523212 byte) lebih rendah daripada MVC (269571898 byte) serta diilustrasikan pada figure 13.
 	\begin{figure}[h]
 		\centering
-		\includegraphics[width=0.4\textwidth]{../mvc-mvvm/plot_view_total_memory.pdf}
+		\includegraphics[width=0.5\textwidth]{../mvc-mvvm/plot_view_total_memory.pdf}
 		\caption{Perbandingan \textit{Total View to Total Memory}}
 		\label{fig:total_view_to_total_memory}
 	\end{figure}
@@ -373,9 +373,9 @@
 	
 	
 	\section{Kesimpulan}
-	Penelitian ini menyimpulkan bahwa dalam hal kecepatan eksekusi, arsitektur Model-View-ViewModel (MVVM) cenderung lebih cepat dibandingkan dengan Model-View-Controller (MVC). Hal ini terlihat dari waktu eksekusi yang lebih konsisten dan efisien dalam menangani operasi yang melibatkan perubahan data pada banyak tampilan (view). Namun, penggunaan memori oleh MVVM lebih tinggi dibandingkan dengan MVC, kemungkinan disebabkan oleh mekanisme data binding yang memerlukan lebih banyak sumber daya untuk sinkronisasi antara ViewModel dan View. Maka dari hasil itu dapat dikatakan bahwa MVC cocok untuk aplikasi yang membutuhkan arsitektur yang lebih sederhana dan mudah dipahami, sementara MVVM lebih cocok untuk aplikasi kompleks dengan banyak interaksi UI dan yang memerlukan efisiensi dalam pemeliharaan dan pengujian.
+	Kesimpulan yang dapat diambil dari penelitian ini adalah dalam hal kecepatan eksekusi, arsitektur Model-View-ViewModel (MVVM) cenderung lebih cepat dibandingkan dengan Model-View-Controller (MVC). Hal ini terlihat dari waktu eksekusi yang lebih konsisten dan efisien dalam menangani operasi yang melibatkan perubahan data pada banyak tampilan (view). Namun, penggunaan memori oleh MVVM lebih tinggi dibandingkan dengan MVC, kemungkinan disebabkan oleh mekanisme data binding yang memerlukan lebih banyak sumber daya untuk sinkronisasi antara ViewModel dan View. Maka dari hasil itu dapat dikatakan bahwa MVC cocok untuk aplikasi yang membutuhkan arsitektur yang lebih sederhana dan mudah dipahami, sementara MVVM lebih cocok untuk aplikasi kompleks dengan banyak interaksi UI dan yang memerlukan efisiensi dalam pemeliharaan dan pengujian.
 	
-	Penelitian ini memberikan wawasan berharga tentang kelebihan dan kelemahan masing-masing arsitektur, membantu pengembang untuk membuat keputusan yang lebih baik dalam memilih arsitektur yang tepat untuk proyek mereka, sehingga dapat menghasilkan aplikasi yang lebih efisien dan andal.
+	Kami berharap penelitian ini memberikan wawasan berharga tentang kelebihan dan kelemahan masing-masing arsitektur, membantu pengembang untuk membuat keputusan yang lebih baik dalam memilih arsitektur yang tepat untuk proyek mereka, sehingga dapat menghasilkan aplikasi yang lebih efisien dan andal.
 	
 	\bibliography{reference.bib}
 	\vspace{12pt}
